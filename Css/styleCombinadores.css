@@ -1,0 +1,20 @@
+/* hermano adyacente o cercano
+h2 + p{ 
+    color: rgb(134, 127, 199);
+}*/
+
+/* hermano general 
+h2 ~ p{
+    color: violet;
+}*/
+
+/* segunda parte */
+/* hijo
+div > p{
+    color: tomato;
+} */
+
+/* descendiente */
+div p{
+    color: rgb(249, 71, 255);
+}

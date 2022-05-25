@@ -1,0 +1,45 @@
+:root{
+    --primary-color: rgb(138,43,226);
+    --secundary-color:rgb(238,130,238);
+    --three-color:rgb(165,42,42);
+    --header-size: 4rem;
+    --font: 1.8rem;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+header{
+    width: 100vw;
+    height:15vh;
+    /* background-color: blueviolet; */
+    background-color: var( --primary-color);
+}
+
+main{
+    width: 100vw;
+    height: 70vh;
+    /* font-size: 1.8rem; */
+    font-size: var(--font);
+}
+
+h1{
+    /* font-size: 4rem; */
+    font-size: var(--header-size);
+    /* color: violet; */
+    color: var(--secundary-color);
+}
+
+footer{
+    width: 100vw;
+    height: 15vh;
+    /* background-color: brown; */
+    background-color: var(--three-color);
+}

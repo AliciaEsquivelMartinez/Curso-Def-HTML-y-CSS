@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos</title>
+</head>
+<body>
+   <header><H1>Etiqueta video</H1></header>
+   
+   <main>
+       <section>
+           <!-- Para hacer que un video empice y termine en un determinado segundo se utiliza de la siguiente manera  -->
+           <video src="video/movie.mp4#t=3,10" controls preload="auto"></video>
+
+           <h3>opcion 2</h3>
+           <video src="video/movie.mp4" controls preload="auto"></video>
+
+           <h3>opcion 3</h3>
+           <!-- si tenemos diferentes formatos de videos podemos utlizar lo siguiente dejando que el navegador decida cual es el que debe de reproducir -->
+           <video controls preload="auto">
+               <source src="video/movie.mp4"/>
+               <source src="video/movie.m4v"/>
+           </video>
+       </section>
+   </main>
+</body>
+</html>
